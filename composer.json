@@ -1,0 +1,23 @@
+{
+  "name": "realitaetsverlust/bladewolf",
+  "type": "library",
+  "description": "SCSS transpiler written in PHP",
+  "keywords": [],
+  "license": "WTFPL",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Realitaetsverlust",
+      "email": "realitaetsverlust@realitaetsverlust.rocks",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">= 8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Realitaetsverlust\\Bladewolf\\": "./"
+    }
+  }
+}
